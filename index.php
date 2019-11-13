@@ -186,7 +186,7 @@ GET OTP
 <div class="wrap-contact100">
 <form class="contact100-form validate-form" method="POST">
 <span class="contact100-form-title">
-Dor Tsel TPP
+Dor Tsel OTP
 </span>
     <center>
 <label class="radio-container m-r-45">VMP
@@ -238,24 +238,26 @@ OTP:&nbsp;<?= $_SESSION['otp']."<br>" ?>
 <hr>
 <h3><u>Buy Package</u></h3>
 PILIH&nbsp;PAKET:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="pkgid" onchange="if (this.value=='1'){this.form['pkgidman'].style.visibility='visible'}else {this.form['pkgidman'].style.visibility='hidden'};" style="width: 50%;">
-<option value="00009382">OMG! 1GB 2hari Rp 10</option>
-  <option value="00007333"> OMG! 30gb 30k id_33</option>
-  <option value="00009044"> Internet Malam 2k/1gb</option>
-  <option value="00015182"> MAXstream 1GB /2hr NO OMG</option>
-  <option value="00016038"> OMG! 5gb 10k</option>
-  <option value="00015178"></option> Internet Rp10 200mb</option>
+<option value="00016038"> OMG! 5gb /10k</option>
+  <option value="00009382"> OMG! 1GB 2hari /10</option>
+  <option value="00007333"> OMG! 30gb /30k id_33</option>
+  <option value="00016035"> OMG! 30gb /30k id_35</option>
+  <option value="00016199"> Addon Max 30GB,/30k id_99</option>
+  <option value="00013535"> JS Bulanan Combo 3,000 min onnet + 500 MB/60.5k</option>
+  <option value="00015182"> MAXstream 1GB /2hr /3k NO OMG</option>
+  <option value="00007221"> MAXstream Viu 1GB /7hr /10k</option>
+  <option value="00010654"> Maxstream 2GB, /2hr /10</option>
+  <option value="00007229"> MAXstream 7GB /7hr/7k NO OMG</option>
+  <option value="00007228"> MAXstream 10GB /7hr/10k NO OMG</option>
+  <option value="00016030"> maxtream 10Gb /?K NO OMG</option> 
+  <option value="00009044"> Internet Malam 1GB /2K</option>
+  <option value="00015178"> Internet 200mb /Rp10 </option>
+  <option value="00020943"> Flash 4G 50GB, /7hr /50k</option>
+  <option value="00022865"> 3GB 150menit 400sms /25K</option>
+  <option value="00013507"> 1GB+150Nelvon+400Sms /15K</option> 
   <option value="00017305"> Vaganza 6,5gb+2gb OMG/20k</option>
-  <option value="00022865"> 3GB 150menit 400sms 25K</option>
-  <option value="00016035"> OMG! 30gb 30k id_35</option>
-  <option value="00016030"> maxtream 10Gb NO OMG</option>  
-  <option value="00013507"> 1GB+150Nelvon+400Sms 15K</option>  
-  <option value="00020170"> 15GB+300Nelvon+400Sms 75K id_70</option> 
-  <option value="00013535"> 15GB+300Nelvon+400Sms 75K id_35</option>
-  <option value="00016199"> Addon Max 30GB,30k id_99</option>
-  <option value="00007221"> MAXstream Viu 1GB /7hr 10k</option>
-  <option value="00020943"> Flash 4G 50GB, /7hr 50k</option>
-  <option value="00016030"> Maxstream 10GB, /30hr 10k</option>
-  <option value="00010654"> Maxstream 2GB, /2hr Rp.10</option>
+  <option value="00020170"> 15GB+300Nelvon+400Sms /75K id_70</option> 
+  <option value="00013535"> 15GB+300Nelvon+400Sms /75K id_35</option>
   <option value="1">Manual ID</option>
 </select><br>
 PKGID:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pkgidman"  style="width: 50%; visibility:hidden;"></input><br>
